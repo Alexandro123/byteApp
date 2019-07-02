@@ -1,0 +1,32 @@
+<ion-header no-border>
+    <ion-toolbar color="primary">
+  
+      <ion-buttons slot="start"> 
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+  
+      <ion-title>Tipo de Activo Crediticio</ion-title>
+      
+    </ion-toolbar>
+  </ion-header>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button color="success">
+        <ion-icon name="add" ></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+    <ion-searchbar></ion-searchbar>
+  <ion-content>
+  
+    <ion-list *ngFor="let cred of crediticio" (click)="presentActionSheet()">
+  
+  
+        
+        <ion-item lines="full">
+          <ion-label> {{cred.codigo}} </ion-label>
+          <ion-label> {{cred.descripcion}} </ion-label>
+    
+        </ion-item>
+  
+  
+    </ion-list>
+  </ion-content>

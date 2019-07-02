@@ -1,0 +1,30 @@
+<ion-header no-border>
+    <ion-toolbar color="primary">
+  
+      <ion-buttons slot="start"> 
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+  
+      <ion-title>Tipo Ajuste</ion-title>
+      
+    </ion-toolbar>
+  </ion-header>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+      <ion-fab-button color="success">
+        <ion-icon name="add" ></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+    <ion-searchbar></ion-searchbar>
+  <ion-content>
+  
+    <ion-list *ngFor="let ajus of tipoAjuste" (click)="presentActionSheet()">
+  
+        <ion-item lines="full">
+          <ion-label> {{ajus.codigo}} </ion-label>
+          <ion-label> {{ajus.descripcion}} </ion-label>
+    
+        </ion-item>
+  
+  
+    </ion-list>
+  </ion-content>

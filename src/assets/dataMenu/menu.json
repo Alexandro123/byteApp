@@ -1,0 +1,126 @@
+[
+    {
+        "name": "Almacenadora",
+        "redirectTo": "/almacenadora"
+    },
+    {
+        "name": "Aseguradora",
+        "redirectTo": "/aseguradora"
+    },
+    {
+        "name": "Lugares de Inversion",
+        "redirectTo": "/lugares-de-inversion"
+    },
+    {
+        "name": "Origen de Fondos",
+        "redirectTo": "/origen-de-fondos"
+    },
+    {
+        "name": "Formas de Pago",
+        "redirectTo": "/formas-de-pago"
+    },
+    {
+        "name": "Destinos",
+        "redirectTo": "/destinos"
+    },
+    {
+        "name": "Categorias",
+        "redirectTo": "/categoria"
+    },
+    {
+        "name": "Estatus Garantia Real",
+        "redirectTo": "/estatus-garantia-real"
+    },
+    {
+        "name": "Estatus Avalúos",
+        "redirectTo": "/estatus-avaluos"
+    },
+    {
+        "name": "Ingenieros Valuadores",
+        "redirectTo": "/ingenieros-valuadores"
+    },
+    {
+        "name": "Notarios",
+        "redirectTo": "/notarios"
+    },
+    {
+        "name": "Motivos de Ajuste",
+        "redirectTo": "/motivos-ajuste"
+    },
+    {
+        "name": "Dias Inhábiles",
+        "redirectTo": "/dias-inhabiles"
+    },
+    {
+        "name": "Cobros Adicionales",
+        "redirectTo": "/cobros-adicionales"
+    },
+    {
+        "name": "Instituciones",
+        "redirectTo": "/instituciones"
+    },
+    {
+        "name": "Motivo de Reversa",
+        "redirectTo": "/motivo-de-reversa"
+    },
+    {
+        "name": "Formas de Desembolso",
+        "redirectTo": "/formas-de-desembolso"
+    },
+    {
+        "name": "Medios de Contacto",
+        "redirectTo": "/medios-de-contacto"
+    },
+    {
+        "name": "Tipo Deducción",
+        "redirectTo": "/tipo-deduccion"
+    },
+    {
+        "name": "Tipos de Prestamos",
+        "redirectTo": "/tipos-de-prestamos"
+    },
+    {
+        "name": "Tipo de Vehiculo",
+        "redirectTo": "/tipo-de-vehiculo"
+    },
+    {
+        "name": "Tipo Activo Crediticio",
+        "redirectTo": "/tipo-activo-crediticio"
+    },
+    {
+        "name": "Corredor Seguro",
+        "redirectTo": "/corredor-seguro"
+    },
+    {
+        "name": "Ejecutivo Cuenta",
+        "redirectTo": "/ejecutivo-cuenta"
+    },
+    {
+        "name": "Empresa",
+        "redirectTo": "/empresa"
+    },
+    {
+        "name": "Cambio Ejecutivo",
+        "redirectTo": "/cambio-ejecutivo"
+    },
+    {
+        "name": "Poder",
+        "redirectTo": "/poder"
+    },
+    {
+        "name": "Estado Resolucion",
+        "redirectTo": "/estado-resolucion"
+    },
+    {
+        "name": "Tipo Ajuste",
+        "redirectTo": "/tipo-ajuste"
+    },
+    {
+        "name": "Instancia",
+        "redirectTo": "/instancia"
+    },
+    {
+        "name": "Moneda Motivo Reversión de Pago",
+        "redirectTo": "/moneda-motivo-reversion-de-pago"
+    }
+]

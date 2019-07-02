@@ -1,0 +1,41 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>Ver Almacenadora</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+  
+    
+    <br>
+  
+      <ion-label padding> Código* </ion-label> <br>
+      <ion-input  padding [(ngModel)]="almacenadora.codigo"> </ion-input>
+    
+        <ion-label padding> Descripción*</ion-label><br>
+        <ion-input  padding [(ngModel)]="almacenadora.descripcion"> </ion-input>
+
+        <ion-label padding> Empresa*</ion-label><br>
+        <ion-input  padding [(ngModel)]="almacenadora.empresa"> </ion-input>
+      
+  
+  
+       
+        
+    
+  
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+            <ion-button shape="round" color="success" (click)="verAlmacenadora()">Aceptar</ion-button>
+        </ion-col>
+        <ion-col>
+            <ion-button shape="round" color="danger" (click)="cerrarModal()">Cancelar</ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+    
+    
+  
+  </ion-content>

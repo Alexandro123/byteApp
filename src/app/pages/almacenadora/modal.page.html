@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Agregar Almacenadora</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  
+  <br>
+
+    <ion-label padding>Ingrese Código* </ion-label> <br>
+    <ion-input clearInput padding [(ngModel)]="almacenadora.codigo"> </ion-input>
+  
+      <ion-label padding>Ingrese Descripción*</ion-label><br>
+      <ion-input clearInput padding [(ngModel)]="almacenadora.descripcion"> </ion-input>
+    
+
+
+     
+  
+  
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+          <ion-button shape="round" color="success" (click)="crearAlmacenadora(); listaAlmacenadora()">Aceptar</ion-button>
+      </ion-col>
+      <ion-col>
+          <ion-button shape="round" color="danger" (click)="cerrarModal()">Cancelar</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  
+  
+
+</ion-content>
